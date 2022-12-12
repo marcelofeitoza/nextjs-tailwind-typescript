@@ -1,13 +1,12 @@
 import Head from "next/head"
-import React from "react"
 
-// import { NavbarComponent } from "./Navbar"
-// import { FooterComponent } from "./Footer"
+import { Navbar } from "./Navbar"
+import { Footer } from "./Footer"
 
 export const Layout = ({
     title,
-    navbar,
-    footer,
+    navbar = true,
+    footer = true,
     children
 }: {
     title?: string,
@@ -26,12 +25,12 @@ export const Layout = ({
 
             <main className="flex flex-col flex-1 w-full min-h-screen h-full bg-black">
                 {/* Add your navbar here */}
-                {/* Ex.: { navbar ? <NavbarComponent /> : null } */}
+                {navbar ? <Navbar /> : null}
 
                 {children}
 
                 {/* Add your footer here */}
-                {/* Ex.: { footer ? <FooterComponent /> : null } */}
+                {footer ? <Footer /> : null}
             </main>
         </div>
     )
