@@ -5,15 +5,17 @@
   
 </div>
 
+![preview](./assets/preview.jpeg)
+
 ## Features
 
 -   Next.js 13
 -   React 18
 -   TypeScript
 -   Tailwind CSS
--   Absolute Import and Path Alias
 -   ESLint
 -   Prettier
+<!-- -   Absolute Import and Path Alias -->
 
 ## Getting Started
 
