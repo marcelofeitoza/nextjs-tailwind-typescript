@@ -23,7 +23,7 @@ export const Layout = ({
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
 
-            <main className="flex flex-col flex-1 w-full min-h-screen h-full bg-black">
+            <main className="flex flex-col flex-1 w-full min-h-screen h-full">
                 {/* Add your navbar here */}
                 {navbar ? <Navbar /> : null}
 
