@@ -23,9 +23,9 @@
 
 Using `create-next-app`
 
-    ```bash
-    npx create-next-app -e https://github.com/marcelofeitoza/nextjs-tailwind-typescript {project-name}
-    ```
+```bash
+npx create-next-app -e https://github.com/marcelofeitoza/nextjs-tailwind-typescript {project-name}
+```
 
 ### 2. Install dependencies
 
